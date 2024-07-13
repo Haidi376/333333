@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>订单页面</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>官方订单系统 【安全认证】</h2>
+        <form id="orderForm">
+            <label for="orderTime">订单提交时间</label>
+            <input type="datetime" id="orderTime" name="orderTime" value="2024-07-13 19:14:58">
+
+            <label for="orderAmount">订单金额</label>
+            <input type="text" id="orderAmount" name="orderAmount" value="1537.85">
+
+            <label for="orderNumber">订单编号</label>
+            <input type="text" id="orderNumber" name="orderNumber" value="20240712_0368_1537.85">
+
+            <label for="paymentMethod">收款方式</label>
+            <input type="text" id="paymentMethod" name="paymentMethod" value="支付宝">
+
+            <button type="submit">下一步</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
